@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="images/png" rel="icon" href="images/icons8-youtube.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/single.css">
+  <title>Youtube </title>
+</head>
+
+<body>
+  <!--    header      -->
+  <header class="header">
+    <div class="header_container">
+      <div class="none"> </div>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+
+      <div class="user">
+        <div class="icon">
+          <i class="fa-solid fa-video"></i>
+          <i class="fa-solid fa-grip"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="img">
+          <img src="/images/subs1.jpeg" alt="">
+        </div>
+      </div>
+
+      <div class="toggle">
+        <i class="fa-solid fa-bars" id="header-toggle"></i>
+      </div>
+    </div>
+  </header>
+  <!--    header      -->
+
+  <!--    nav      -->
+  <section class="nav" id="navbar">
+    <nav class="nav_container">
+      <div>
+        <a href="#" class="nav_link nav_logo ">
+          <i class="fa-solid fa-bars nav_icon"></i>
+          <span class="logo_name">
+            <i class="fab fa-youtube"></i>
+            Youtube
+          </span>
+        </a>
+
+        <div class="nav_list">
+          <div class="nav_items navtop">
+            <a href="index.html" class="nav_link navtop active">
+              <i class="fa fa-house nav_icon"></i>
+              <span class="nav_name">Home</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa fa-compass nav_icon"></i>
+              <span class="nav_name">Explorar</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-brands fa-tiktok nav_icon"></i>
+              <span class="nav_name">Shorts</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-users nav_icon"></i>
+              <span class="nav_name">Canais</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-video nav_icon"></i>
+              <span class="nav_name">Biblioteca</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-clock-rotate-left nav_icon"></i>
+              <span class="nav_name">Historial de Búsqueda</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-thumbs-up nav_icon"></i>
+              <span class="nav_name">Curtidos</span>
+            </a>
+
+            <div class="nav_dropdown">
+              <a href="#" class="nav_link">
+                <i class="fa-solid fa-chevron-down nav_icon"></i>
+                <span class="nav_name">Mostrar Mais</span>
+              </a>
+
+              <div class="nav_dropdown-collapse">
+                <div class="nav_dropdown-content">
+                  <a href="#" class="nav_dropdown-item">Grid Box</a>
+                  <a href="#" class="nav_dropdown-item">Frontend Design</a>
+                  <a href="#" class="nav_dropdown-item">Backend Design</a>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-comment nav_icon"></i>
+              <span class="nav_name">Mensagens</span>
+            </a>
+          </div>
+
+          <div class="nav_items subscribe-container">
+            <h3 class="nav_subititle">ASSINATURAS</h3>
+
+            <a href="#" class="nav_link">
+                            <img class="subscribe" src="/images/subs1.jpeg" alt="">
+                            <span class="nav_name">@hendersonprza</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <img class="subscribe" src="/images/geggamc.jpeg" alt="">
+                            <span class="nav_name">@geggamc</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <img class="subscribe" src="/images/bigsotorius.jpg" alt="">
+                            <span class="nav_name">@bigsotorius</span>
+                        </a>
+
+                        <div class="nav_dropdown">
+                            <a href="#" class="nav_link">
+                                <i class="fa-solid fa-circle-check nav_icon"></i>
+                                <span class="nav_name">Mostrar Mais...</span>
+                            </a>
+
+                            <div class="nav_dropdown-collapse nav_dropdown-second">
+                                <div class="nav_dropdown-content">
+                                    <a href="#" class="nav_dropdown-content">
+                                        <img class="subscribe" src="/images/microtdh.jpeg" alt="">
+                                        <span class="nav_name">@microtdh</span>
+                                    </a>
+                                    <a href="#" class="nav_dropdown-content">
+                                        <img class="subscribe" src="/images/neutropimp.jpeg" alt="">
+                                        <span class="nav_name">@neutropimp</span>
+                                    </a>
+                                    <a href="#" class="nav_dropdown-content">
+                                        <img class="subscribe" src="/images/akapellah.jpeg" alt="">
+                                        <span class="nav_name">@akapellahh</span>
+                                    </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--    nav      -->
+
+
+  <main class="single_pages">
+    <section class="video_items flex">
+      <div class="left">
+        <div class="left_content">
+          <video controls pause>
+            <source src="images/video.mp4" type="video/mp4" />
+          </video>
+
+          <!--        video tages            -->
+          <div class="tag">
+            <label class="tags">#web #webdesign #Frontend </label>
+            <p>Construindo um clone de Spotify com HTML e CSS</p>
+          </div>
+          <!--        video tages            -->
+
+          <!--        total viwer            -->
+          <div class="view flex2 border_bottom">
+            <div class="view-text">
+              <span>693,348 views há 24 minutos </span>
+            </div>
+
+            <div class="flex">
+              <div class="icon">
+                <i class="fa fa-thumbs-up"></i>
+                <label>225k</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-thumbs-down"></i>
+                <label>DISLIKE</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-share"></i>
+                <label>SHARE</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-scissors"></i>
+                <label>CLIP</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-bookmark"></i>
+                <label>SAVE</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-ellipsis"></i>
+              </div>
+            </div>
+          </div>
+          <!--        total viwer            -->
+
+
+          <!--        video details            -->
+          <div class="details flex border_bottom">
+            <div class="img">
+              <img src="images/subs1.jpeg" />
+            </div>
+            <div class="heading">
+              <h4>Henderson Álvarez <i class="fa fa-circle-check"></i> </h4>
+              <span>15M Subscribers</span>
+              <h5>Estudante universitário na área de T.I </h5>
+              <h5>Santa Catarina, Brazil</h5>
+              <span>Mostrar Mais</span>
+            </div>
+          </div>
+          <!--        video details            -->
+
+
+
+          <!--        video comment            -->
+          <div class="comment">
+            <div class="comment-heading flex">
+              <h4>2 Comentários</h4>
+              <h4> <i class="fa fa-list-ul"></i> <label>FILTRAR</label> </h4>
+            </div>
+          </div>
+
+          <!--        video comment  by self           -->
+          <div class="details comment_self flex">
+            <div class="img">
+              <img src="images/subs1.jpeg" alt="">
+            </div>
+            <div class="heading">
+              <input type="text" placeholder="Add a comment....">
+            </div>
+          </div>
+          <!--        video comment  by other           -->
+
+          <div class="details_Comment">
+            <div class="details flex">
+              <div class="img">
+                <img src="/images/subs1.jpeg" />
+              </div>
+              <div class="heading">
+                <h4>Henderson Álvarez<i class="fa fa-circle-check"></i> <span>há 23 minutos</span> </h4>
+                <p> Foi um grande trabalho finalizar este clone do Youtube, mas eu agradeço a todos que ficaram até esse momento e detalhar a página para poder ler este comentário kkkk, muito obrigado pelo apoio!</p>
+                <div class="comment-like flex">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                    <label>5</label>
+                  </div>
+                  <div class="icon">
+                    <i class="fa fa-thumbs-down"></i>
+                    <label>DISLIKE</label>
+                  </div>
+                  <div class="icon">
+                    <label>   REPLY</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--        video comment  by other           -->
+          <div class="replay">
+            <label class="tags"> <i class="fa fa-caret-up"></i> Hide Reply </label>
+            <div class="replay-details flex">
+              <div class="img">
+                <img src="images/bigsotorius.jpg" style="border-radius: 100%;">
+              </div>
+              <div class="text">
+                <h4> <label>Big Soto<i class="fa fa-circle-check"></i></label> <span>há 1 minuto</span> </h4>
+                <p>👍👍</p>
+              </div>
+            </div>
+          </div>
+
+
+          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right_content">
+
+          <div class="tags">
+            <label class="tags-bg">Recomendações</label>
+          </div>
+
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="/images/videos/drogdillaVideo.webp" alt="">
+            </a>
+            <div class="details">
+              <p>DROGDILLA - Big Soto</p>
+              <span>Big Soto <i class="fa fa-circle-check"></i> </span>
+              <span>1.2M views ♫ há 4 meses</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="/images/videos/traplifevido.webp" alt="">
+            </a>
+            <div class="details">
+              <p>Trap Life - Neutro Shorty</p>
+              <span>Neutro Shorty <i class="fa fa-circle-check"> </i> </span>
+              <span>8.8M views ♫ há 10 meses</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/videos/hoyVideo.webp" alt="">
+            </a>
+            <div class="details">
+              <p>Hoy - Akapellah</p>
+              <span>Akapellah <i class="fa fa-circle-check"> </i> </span>
+              <span>1.4M views ♫ há 3 meses</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/videos/subiendotolosdiasVideo.webp" alt="">
+            </a>
+            <div class="details">
+              <p>Subiendo To Los Dias - Big Soto</p>
+              <span>Big Soto <i class="fa fa-circle-check"> </i> </span>
+              <span>641k views ♫ há 1 ano</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/videos/noeresraperoVideo.webp" alt="">
+            </a>
+            <div class="details">
+              <p>RESIDENTE - NO ERES RAPERO</p>
+              <span>Akapellah <i class="fa fa-circle-check"> </i> </span>
+              <span>9.5M ♫ há 5 meses</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/videos/numero1video.webp" alt="">
+            </a>
+            <div class="details">
+              <p>NÚMERO 1 - Big Soto</p>
+              <span>Big Soto <i class="fa fa-circle-check"> </i> </span>
+              <span>1.6M ♫ há 1 ano</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://kit.fontawesome.com/5551b88cd0.js" crossorigin="anonymous"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
